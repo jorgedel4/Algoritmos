@@ -1,10 +1,10 @@
 // Análisis y diseño de algoritmos avanzados 
 // Actividad 1.1 - Implementación de la técnica de programación "divide y vencerás"
-// Fecha: 
+// Fecha: 9/8/2022
 // Miembros:
-// * Jorge Angel Delgado Morales (A01551955)
-// *
-// * 
+// * Jorge Angel Delgado Morales    (A01551955)
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
 
 #include <iostream>
 #include "mergeSort.hpp"

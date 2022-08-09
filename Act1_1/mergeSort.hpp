@@ -12,7 +12,7 @@ void merge(double array[], int left, int mid, int right){
     // se llenan los subarrays con los valores correspondientes del array original
     for (int i = 0; i < n1; i++)
         leftArray[i] = array[left + i];
-    for (auto i = 0; i < n2; i++)
+    for (int i = 0; i < n2; i++)
         rightArray[i] = array[mid + 1 + i];
 
     int i1, i2, iMerged;
