@@ -1,3 +1,11 @@
+// Análisis y diseño de algoritmos avanzados 
+// Actividad 2.1 Implementación de "Hash String" 
+// Fecha: 5/9/2022
+// Miembros:
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
+// * Jorge Angel Delgado Morales    (A01551955)
+
 #include <iostream>
 #include <string>
 #include <math.h>
