@@ -10,17 +10,16 @@
 #include <string>
 #include <math.h>
 #include <sstream>
-#include "fileContent.hpp"
 
 int main() {
     std::string fileName, fileText;
     int nColumns;
 
-    std::getline(std::cin, fileName);
+    std::getline(std::cin, fileText);
     std::cin >> nColumns;
 
     // transformar contenido de txt a un string
-    fileText = fileContent(fileName);
+    //fileText = fileContent(fileName, fileText, nColumns);
 
     // numero de caracteres en el string
     size_t nChars = fileText.length();
