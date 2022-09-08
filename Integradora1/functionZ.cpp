@@ -1,7 +1,9 @@
 using namespace std;
 #include <vector>
 
-// Complexity: O(n + m), where 
+// Complexity: O(n + m), where
+// n is the size of the pattern
+// m is the size of the text
 vector<int> functionZ(string pattern, string text) {
     string word = pattern + "$" + text;
     vector<int> zArray(text.size());

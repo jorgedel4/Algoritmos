@@ -8,16 +8,14 @@ Miembros:
 
 PREGUNTAS:
 PT1: 
-Mostrar todas las coincidencias o 1 sola?
-Los archivos code solo tienen una secuencia de caracteres?
-Qué tan largos son los archivos transmission? Para evaluar cómo guardarlos.
-Para la parte dos: Solo reversear string y repetir el proceso?
-
+Qué tan largos son los archivos transmission? Para evaluar cómo guardarlos. Strings
+Saltos de línea: no ignorar. getline
 */
 
 #include <iostream>
 #include <fstream>
 #include "functionZ.cpp"
+#include "commonSubstr.cpp"
 using namespace std;
 
 // Complexity: O(N), where N is the size of the arrayZ
@@ -36,6 +34,7 @@ void checkMatch(vector<int> arrayZ, int patternSize) {
     else cout << endl;
     return;
 }
+
 
 int main() {
     // Transmission files contain plaintext
@@ -78,8 +77,9 @@ int main() {
     For each transmission file, check if there is an ocurrence and 
     its initial position if true
     */
+    cout << "---------- PART 1 -----------" << endl;
     for (int i = 0; i < 2; i++)
-        for (int j = 0; j < 3; j++){
+        for (int j = 0; j < 3; j++) {
             // [DEBUGGING] Printing marker for each file and code
             cout << "=== Checking file " << i << " for match on code " << j << "===" << endl;
             cout << "file: " << trans[i] << endl;
@@ -87,15 +87,30 @@ int main() {
             checkMatch(functionZ(codes[j], trans[i]), codes[j].size());
         } 
 
+    cout << endl;
+
     /*
     PT2: 
     For each transmission file, check if there is an ocurrence and where
     */
+    cout << "---------- PART 2 -----------" << endl;
+    for (int i = 0; i < 3; i++) reverse(codes[i].begin(), codes[i].end());
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 3; j++) {
+            // [DEBUGGING] Printing marker for each file and code
+            cout << "=== Checking file " << i << " for match on code " << j << "===" << endl;
+            cout << "file: " << trans[i] << endl;
+            cout << "code: " << codes[j] << endl;
+            checkMatch(functionZ(codes[j], trans[i]), codes[j].size());
+        } 
 
 
     /*
     PT3: 
-    Initial and final position of the longest commun substring 
+    Initial and final position in file 1 of the longest commun substring
     within the two transmission files
     */
+    cout << "---------- PART 3 -----------" << endl;
+
+
 }
