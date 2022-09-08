@@ -18,24 +18,6 @@ Saltos de línea: no ignorar. getline
 #include "commonSubstr.cpp"
 using namespace std;
 
-// Complexity: O(N), where N is the size of the arrayZ
-void checkMatch(vector<int> arrayZ, int patternSize) {
-    bool isFound = false;
-    for (int i = 0; i < arrayZ.size(); i++) {
-        if (arrayZ[i] == patternSize) {
-            if (!isFound) {
-                cout << "true ";
-                isFound = true;
-            }
-            cout << i << " ";
-        }
-    }
-    if (!isFound) cout << "false" << endl;
-    else cout << endl;
-    return;
-}
-
-
 int main() {
     // Transmission files contain plaintext
     // Code files contain malware that could be in a transmission file
@@ -78,6 +60,7 @@ int main() {
     its initial position if true
     */
     cout << "---------- PART 1 -----------" << endl;
+    cout << "-----------------------------" << endl;
     for (int i = 0; i < 2; i++)
         for (int j = 0; j < 3; j++) {
             // [DEBUGGING] Printing marker for each file and code
@@ -94,6 +77,7 @@ int main() {
     For each transmission file, check if there is an ocurrence and where
     */
     cout << "---------- PART 2 -----------" << endl;
+    cout << "-----------------------------" << endl;
     for (int i = 0; i < 3; i++) reverse(codes[i].begin(), codes[i].end());
     for (int i = 0; i < 2; i++)
         for (int j = 0; j < 3; j++) {
@@ -104,13 +88,15 @@ int main() {
             checkMatch(functionZ(codes[j], trans[i]), codes[j].size());
         } 
 
-
+    cout << endl;
     /*
     PT3: 
     Initial and final position in file 1 of the longest commun substring
     within the two transmission files
     */
     cout << "---------- PART 3 -----------" << endl;
-
+    cout << "-----------------------------" << endl;
+    pair<int, int> positions = commonSubstr(trans[0], trans[1]);
+    cout << positions.first << " " << positions.second << " " << endl;
 
 }

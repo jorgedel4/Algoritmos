@@ -30,3 +30,20 @@ vector<int> functionZ(string pattern, string text) {
     cout << endl;
     return zArray;
 }
+
+// Complexity: O(N), where N is the size of the arrayZ
+void checkMatch(vector<int> arrayZ, int patternSize) {
+    bool isFound = false;
+    for (int i = 0; i < arrayZ.size(); i++) {
+        if (arrayZ[i] == patternSize) {
+            if (!isFound) {
+                cout << "true ";
+                isFound = true;
+            }
+            cout << i << " ";
+        }
+    }
+    if (!isFound) cout << "false" << endl;
+    else cout << endl;
+    return;
+}
