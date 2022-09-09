@@ -74,7 +74,6 @@ int main() {
             getPosition(functionZ(codes[j], trans[i]), codes[j].size());
         } 
 
-
     /*
     PT3: 
     Initial and final position in file 1 of the longest commun substring
