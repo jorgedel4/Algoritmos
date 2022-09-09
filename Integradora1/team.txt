@@ -1,0 +1,11 @@
+* Karla Sanchez Olivares         (A01730545)
+Function Z
+Input archivos
+
+* Carlos Alberto Vega Perez      (A01731416)
+CheckMatch
+getPosition
+
+* Jorge Angel Delgado Morales    (A01551955)
+Common Substring
+Manejo saltos de línea
