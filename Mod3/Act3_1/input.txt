@@ -1,6 +1,10 @@
-5
-burro
+6
 arbol
-paco
-arana
 arandano
+arana 
+pino
+olmo
+pinole
+2
+olmo
+pina

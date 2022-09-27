@@ -9,6 +9,7 @@ struct Node {
     std::unordered_map<char, Node> children;
 };
 
+// Time Complexity - O(n), donde n es el numero de palabras
 void insert(Node *root, std::string word) {
     Node *current = root;
 
@@ -16,6 +17,7 @@ void insert(Node *root, std::string word) {
         current = &(current->children[letter]);
 }
 
+// Time Complexity - O(n), donde n es el numero de palabras
 bool exists(Node* root, std::string word) {
     Node* current = root;
     
@@ -27,25 +29,10 @@ bool exists(Node* root, std::string word) {
     return true;
 }
 
-// void DFS2(Node root, int spaces) {
-//     if (root.children.size() == 0) {
-//         for (int i = 0; i < spaces; i++)
-//             std::cout << " ";
-//         return;
-//     }
-
-//     for(int x = 0; x < auxV.size(); ++x){
-//         cout << auxV[x];
-//         DFS(root.children[auxV[x]], spaces + 1);
-//     }
-
-//     std::cout << endl;
-// }
-
+// Time Complexity - O(l), donde l es el total de letras del trie. Ya que se tiene que pasar por todas estas
 void DFS(Node root, int tabs) {
     int nChildren = root.children.size();
     if(!nChildren) return;
-    vector<char> children;
 
     for(auto child : root.children) {
         for(int _ = 0; _ < tabs; ++_) cout << " ";
@@ -60,21 +47,15 @@ int main() {
 
     std::vector<std::string> words(n);
 
-    // for (int i = n - 1; i >= 0; --i)
-    //     std::cin >> words[i];
-
     for (int i = 0; i < n; ++i)
         std::cin >> words[i];
 
-    // for (int i = n - 1; i >= 0; --i)
-    //     std::cin >> words[i];
+    std::cin >> m;
 
-    // std::cin >> m;
+    std::vector<std::string> queries(m);
 
-    // std::vector<std::string> queries(m);
-
-    // for(int i = 0; i < m; ++i)
-    //     std::cin >> queries[i];
+    for(int i = 0; i < m; ++i)
+        std::cin >> queries[i];
 
     Node root;
 
@@ -82,6 +63,10 @@ int main() {
         insert(&root, word);
 
     DFS(root, 0);
+
+    for(string query : queries) {
+        cout << exists(&root, query) << endl;
+    }
 
     return 0;
 }
