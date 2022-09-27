@@ -1,7 +1,6 @@
-6
-carro
+5
+burro
 arbol
+paco
 arana
-amigo
-coco
-disco
+arandano

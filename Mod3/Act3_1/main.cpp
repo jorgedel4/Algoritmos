@@ -27,26 +27,31 @@ bool exists(Node* root, std::string word) {
     return true;
 }
 
-void DFS(Node root, int spaces) {
-    if (root.children.size() == 0) {
-        for (int i = 0; i < spaces; i++)
-            std::cout << " ";
-        return;
-    }
+// void DFS2(Node root, int spaces) {
+//     if (root.children.size() == 0) {
+//         for (int i = 0; i < spaces; i++)
+//             std::cout << " ";
+//         return;
+//     }
 
-    //for (it = root.children.cend(); it != root.children.cbegin(); it++)
-    vector<char> auxV;
-    for (auto child : root.children)
-    {
-        auxV.push_back(child.first);
-    }
+//     for(int x = 0; x < auxV.size(); ++x){
+//         cout << auxV[x];
+//         DFS(root.children[auxV[x]], spaces + 1);
+//     }
 
-    for(int x = auxV.size() - 1; x >= 0; --x){
-        cout << auxV[x];
-        DFS(root.children[auxV[x]], spaces + 1);
-    }
+//     std::cout << endl;
+// }
 
-    std::cout << endl;
+void DFS(Node root, int tabs) {
+    int nChildren = root.children.size();
+    if(!nChildren) return;
+    vector<char> children;
+
+    for(auto child : root.children) {
+        for(int _ = 0; _ < tabs; ++_) cout << " ";
+        cout << child.first << endl;
+        DFS(root.children[child.first], tabs + 1);
+    }
 }
 
 int main() {
@@ -76,18 +81,7 @@ int main() {
     for (std::string word : words)
         insert(&root, word);
 
-    Node current = root;
-    DFS(current, 0);
-
-    // for (auto child : root.children) {
-    //     cout << child.first << endl;
-    //     for(auto child2 : root.children[child.first].children){
-    //         cout << "\t" << child2.first << endl;
-    //         for(auto child3 : root.children[child.first].children[child2.first].children) {
-    //             cout << "\t\t" << child3.first << endl;
-    //         }
-    //     }
-    // }
+    DFS(root, 0);
 
     return 0;
 }
