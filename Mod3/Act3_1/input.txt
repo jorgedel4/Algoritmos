@@ -1,8 +1,7 @@
-7
-alga
-algodon
-amor
-bate
-bola
-bolillo
+6
 carro
+arbol
+arana
+amigo
+coco
+disco
