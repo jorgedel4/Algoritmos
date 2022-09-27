@@ -35,10 +35,15 @@ void DFS(Node root, int spaces) {
     }
 
     //for (it = root.children.cend(); it != root.children.cbegin(); it++)
+    vector<char> auxV;
     for (auto child : root.children)
     {
-        std::cout << child.first;
-        DFS(root.children[child.first], spaces + 1);
+        auxV.push_back(child.first);
+    }
+
+    for(int x = auxV.size() - 1; x >= 0; --x){
+        cout << auxV[x];
+        DFS(root.children[auxV[x]], spaces + 1);
     }
 
     std::cout << endl;
@@ -72,17 +77,17 @@ int main() {
         insert(&root, word);
 
     Node current = root;
-    //DFS(current, 0);
+    DFS(current, 0);
 
-    for (auto child : root.children) {
-        cout << child.first << endl;
-        for(auto child2 : root.children[child.first].children){
-            cout << "\t" << child2.first << endl;
-            for(auto child3 : root.children[child.first].children[child2.first].children) {
-                cout << "\t\t" << child3.first << endl;
-            }
-        }
-    }
+    // for (auto child : root.children) {
+    //     cout << child.first << endl;
+    //     for(auto child2 : root.children[child.first].children){
+    //         cout << "\t" << child2.first << endl;
+    //         for(auto child3 : root.children[child.first].children[child2.first].children) {
+    //             cout << "\t\t" << child3.first << endl;
+    //         }
+    //     }
+    // }
 
     return 0;
 }
