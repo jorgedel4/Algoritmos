@@ -1,3 +1,11 @@
+// Análisis y diseño de algoritmos avanzados 
+// Actividad 3.3 Implementacion de Knapsack problem
+// Fecha: 3/10/2022
+// Miembros:
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
+// * Jorge Angel Delgado Morales    (A01551955)
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -33,6 +41,7 @@ struct item {
     }
 };
 
+// TC: O(1)
 bool itemAIsBigger(item a, item b) {
     if (a.relation > b.relation) return true;
     else if (a.relation == b.relation) {
@@ -45,6 +54,7 @@ bool itemAIsBigger(item a, item b) {
     else return false;
 }
 
+// TC: O(n logn) - donde n es el numero de elementos en el vector
 void merge(vector<item>& vec, int start, int end, int middle) {
     vector<item> aux(end-start+1);
     int i = start, j = middle+1, k = start;
@@ -74,6 +84,7 @@ void merge(vector<item>& vec, int start, int end, int middle) {
     }
 }
 
+// TC: O(n logn)
 void mergeSort(vector<item>& vec, int start, int end) {
     if (start >= end) return;
     int middle = (start+end)/2;
@@ -82,6 +93,7 @@ void mergeSort(vector<item>& vec, int start, int end) {
     merge(vec, start, end, middle);
 }
 
+// TC: O(s) - Donde s es el tamano disponible
 int insertIntoBackpack(vector<item> available, int maxWeight) {
     int weightCounter = 0;
     int valueCounter = 0;
@@ -98,22 +110,25 @@ int main() {
     int n, num, maxWeight;
     cin >> n;
     vector<item> available (n, item());
-    for (int i = 0; i < n; i++) {
+    // TC: O(n)
+	for (int i = 0; i < n; i++) {
         cin >> num;
         available[i].setValue(num);
     }
+	// TC: O(n)
     for (int i = 0; i < n; i++) {
         cin >> num;
         available[i].setWeight(num);
     }
     cin >> maxWeight;
 
+	// TC: O(n)
     for (int i = 0; i < n; i++) {
         cin >> num;
         available[i].printItem();
     }
-
+	// TC: O(n logn)
     mergeSort(available, 0, n-1);
-
+	// TC: O(n), dado a que available es de tamano n
     cout << insertIntoBackpack(available, maxWeight) << endl;
 }
