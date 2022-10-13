@@ -1,8 +1,16 @@
+// Análisis y diseño de algoritmos avanzados 
+// Actividad 3.4 Graph Coloring
+// Fecha: 12/10/2022
+// Miembros:
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
+// * Jorge Angel Delgado Morales    (A01551955)
+
 #include <iostream>
 #include <vector>
 using namespace std;
 
-
+// O(a), where a = adjacencies per node
 bool checkColor(vector<int> ady, vector<int> asigned, int posibleColor){
   for(int i = 0; i < ady.size();i++){
     if(asigned[ady[i]] == posibleColor) //2 3 4 
@@ -11,10 +19,10 @@ bool checkColor(vector<int> ady, vector<int> asigned, int posibleColor){
   return true;
 }
 
+// O(n² * a), where n = nodes and a = adjacencies of the node
 void graphColoring(int n, vector< vector<int> > matrix){
-  //vector<int> colors = {0,1,2,3,4}; //es vec porque se van añadiendo
-  vector<int> asigned(n, -1); //año fijo igual al num de nodos
-  vector<int> ady; //stack de adyacencias(?) 
+  vector<int> asigned(n, -1); 
+  vector<int> ady; 
   int posibleColor = 0;
 
   for(int i = 0; i < matrix.size(); i++){
@@ -39,7 +47,7 @@ int main() {
   int n;
   cin >> n;  
   int temp;
-  vector<vector<int>> matrix;
+  vector<vector<int> > matrix;
   for(int i=0; i<n; i++){
         vector<int> tmp;
         for(int j=0; j<n;j++){
