@@ -13,7 +13,7 @@ using namespace std;
 // Question 1
 #include "optimalWiring.hpp"
 // Question 2
-
+#include "visiting.hpp"
 // Question 3
 
 // Question 4
@@ -56,11 +56,9 @@ int main() {
   y al finalizar regresa a la colonia origen? El programa debe desplegar la ruta
   a considerar, tomando en cuenta que la primera ciudad se le llamará A, a la
   segunda B, y así sucesivamente
-  
-  
   */
   cout << endl << " ---- Question 2 ----" << endl;
-  
+  recorrerTodasLasCiudades(0, adjacencyMatrix);
 
   /*
   3. El programa también debe leer otra matriz cuadrada de N x N datos que

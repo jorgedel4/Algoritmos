@@ -68,11 +68,11 @@ int main() {
     For each transmission file, check if there is an ocurrence of the 
     reverse code of each mcodeX.txt and where
     */
-    for (int i = 0; i < 3; i++) reverse(codes[i].begin(), codes[i].end());
-    for (int i = 0; i < 2; i++)
-        for (int j = 0; j < 3; j++) {
-            getPosition(functionZ(codes[j], trans[i]), codes[j].size());
-        } 
+    // for (int i = 0; i < 3; i++) reverse(codes[i].begin(), codes[i].end());
+    // for (int i = 0; i < 2; i++)
+    //     for (int j = 0; j < 3; j++) {
+    //         getPosition(functionZ(codes[j], trans[i]), codes[j].size());
+    //     } 
 
     /*
     PT3: 
