@@ -58,7 +58,7 @@ int main() {
   segunda B, y así sucesivamente
   */
   cout << endl << " ---- Question 2 ----" << endl;
-  recorrerTodasLasCiudades(0, adjacencyMatrix);
+  traverseCities(adjacencyMatrix, 0);
 
   /*
   3. El programa también debe leer otra matriz cuadrada de N x N datos que
