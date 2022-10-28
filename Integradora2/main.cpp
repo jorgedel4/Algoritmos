@@ -15,7 +15,7 @@ using namespace std;
 // Question 2
 #include "visiting.hpp"
 // Question 3
-
+#include "flux.hpp"
 // Question 4
 #include "assignCentral.hpp"
 
@@ -81,7 +81,8 @@ int main() {
     }
   }
 
-
+  cout << "Flujo maximo de la colonia 0 a la colonia " << n - 1 << endl;
+  cout << maxFlux(maxFluxMatrix, 0, n - 1) << endl;
   /*
   4. Teniendo en cuenta la ubicación geográfica de varias "centrales" a las que
   se pueden conectar nuevas casas, la empresa quiere contar con una forma de

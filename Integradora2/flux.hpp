@@ -2,6 +2,7 @@
 #include <queue>
 using namespace std;
 
+// TC: O(n ^ 2) donde n es el numero de nodos
 bool BFS(vector< vector<int> > residualGraph, int start, int end, int* path) {
     int n = residualGraph.size();
 
@@ -12,7 +13,7 @@ bool BFS(vector< vector<int> > residualGraph, int start, int end, int* path) {
     queue<int> auxQueue;
     auxQueue.push(start);
 
-    visited[start];
+    visited[start] = true;
     path[start] = -1;
 
     int current;
@@ -36,6 +37,7 @@ bool BFS(vector< vector<int> > residualGraph, int start, int end, int* path) {
     return false;
 }
 
+// TC: O(n ^ 5) donde n es el numero de nodos
 int maxFlux(vector< vector<int> > fluxMatrix, int start, int end){
     vector< vector<int> > residualGraph = fluxMatrix;
     int n = fluxMatrix.size();
@@ -44,10 +46,12 @@ int maxFlux(vector< vector<int> > fluxMatrix, int start, int end){
     int maxFlux = 0;
 
     int i, j;
+    // TC: O(n ^ 3) donde n es el numero de nodos
     while(BFS(residualGraph, start, end, path)) {
         int fluxPath = INT_MAX;
 
-        for(j = end; j != start; j = path[i]) {
+        // TC: O(n ^ 2) donde n es el numero de nodos
+        for(j = end; j != start; j = path[j]) {
             i = path[j];
             fluxPath = min(fluxPath, residualGraph[i][j]);
         }
