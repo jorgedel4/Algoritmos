@@ -92,7 +92,8 @@ void printResults(stack<Point> S) {
 }
 
 
-
+// Calculate polygon
+// TC: O(n log n)
 void Graham(vector<Point> points) {
     int lowestYPoint = points[0].y;
     int minPointIndex = 0;
@@ -106,22 +107,12 @@ void Graham(vector<Point> points) {
             minPointIndex = i;
         }
     }
-
     // Change the position of the first element with the lowest in y
     swapPoints(points[0], points[minPointIndex]);
 
-    for (auto point : points) {
-        cout << point.x << " " << point.y << endl;
-    }
-    cout << "------" << endl;
-
     p0 = points[0];
+    // TC: O(n log n)
     qsort(&points[1], points.size()-1, sizeof(Point), compare);
-
-    for (auto point : points) {
-        cout << point.x << " " << point.y << endl;
-    }
-    cout << "------" << endl;
 
     stack<Point> polygonPath;
 
@@ -131,6 +122,7 @@ void Graham(vector<Point> points) {
     polygonPath.push(points[2]);
 
     // Check all remaining points. If the orientation is not possible, remove the pro
+    // TC: O(n)
     for (int i = 3; i < points.size(); i++) {
         while (
             getOrientation(
@@ -144,7 +136,6 @@ void Graham(vector<Point> points) {
         } 
         polygonPath.push(points[i]);
     }
-
     printResults(polygonPath);
 }
 
