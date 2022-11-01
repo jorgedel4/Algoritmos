@@ -25,28 +25,31 @@ int getOrientation(Point p, Point p1, Point p2) {
     return (val > 0) ? 1 : 2; // clock or counterclock wise
 }
 
-
-
-// Función utilizada por "qsort" para poder ordenar los puntos
-// Complejidad: orden constante - O(1)
+// Función para brindar al Qsort una forma de comparar 2 puntos
+// TC: O(1)
 int compare(const void *_p1, const void *_p2) {
-    //Soliticamos los puntos y los casteamos
+    // Cast a pointers
     Point *p1 = (Point *) _p1;
     Point *p2 = (Point *) _p2;
 
-    // Encontramos su orientacion
+    // Orientacion dada el punto inicial y los 2 que se estan comparando
     int o = getOrientation(p0, *p1, *p2);
     switch (o) {
+        // colinear
         case 0: {
             return (getDistance(p0, *p2) >= getDistance(p0, *p1)) ? -1 : 1;
         } break;
+        // a reloj
         case 1: {
             return 1;
         } break;
+        // contrareloj
         case 2: {
             return -1;
         } break;
     }
+    // Nota, -1 indica que el primer valor es mejor y 1 que es mayor
+    // El return 0 es unicamente para suprimir warnings
     return 0;
 }
 
