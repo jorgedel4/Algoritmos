@@ -1,3 +1,11 @@
+// Análisis y diseño de algoritmos avanzados 
+// Actividad 4.2 Implementación Polígonos Convexos aplicando geometría computacional
+// Fecha: 31/10/2022
+// Miembros:
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
+// * Jorge Angel Delgado Morales    (A01551955)
+
 #include <iostream>
 #include <vector>
 #include <stack>
