@@ -18,6 +18,7 @@ struct Point {
 };
 
 // Sobrecarga del operador <
+// TC: O(1)
 bool operator <(const Point& p1, const Point& p2) {
     if (p1.y < p2.y) return true;
     else if (p1.y > p2.y) return false;
@@ -27,6 +28,7 @@ bool operator <(const Point& p1, const Point& p2) {
 }
 
 // Sobrecarga del operador >
+// TC: O(1)
 bool operator >(const Point& p1, const Point& p2) {
     if (p1.y < p2.y) return false;
     else if (p1.y > p2.y) return true;
