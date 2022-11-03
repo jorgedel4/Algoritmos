@@ -12,6 +12,9 @@ struct Point {
     float getDistanceTo(Point b) {
         return (sqrt( pow(this->x - b.x , 2) + pow(this->y - b.y, 2)));
     }
+    void print() {
+        cout << "(" << this->x << ", " << this->y << ")" << endl;
+    }
 };
 
 // Sobrecarga del operador <
