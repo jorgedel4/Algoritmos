@@ -14,9 +14,13 @@ Point parseLine(string line) {
 
 int main() {
     int n;
+    string nStr;
+    getline(cin, nStr);
+    n = stoi(nStr);
     vector<Point> points(n);
-
+    cout << n << endl;
     string line;
+    
     for(int i = 0; i < n; ++i) {
         getline(cin, line);
         points[i] = parseLine(line);
