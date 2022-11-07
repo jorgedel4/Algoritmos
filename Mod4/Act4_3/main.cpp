@@ -1,8 +1,19 @@
+// Análisis y diseño de algoritmos avanzados 
+// Actividad 4.3 Implementación búsqueda geométrica
+// Fecha: 06/11/2022
+// Miembros:
+// * Karla Sanchez Olivares         (A01730545)
+// * Carlos Alberto Vega Perez      (A01731416)
+// * Jorge Angel Delgado Morales    (A01551955)
+
 #include <iostream>
 #include <vector>
+#include <limits>
+#include <math.h>
 using namespace std;
 #include "Point.hpp"
 #include "mergeSort.hpp"
+#include "distance.hpp"
 
 // Apply format to transform line into Point
 // TC: O(1)
@@ -28,7 +39,5 @@ int main() {
 
     mergeSort(points, 0, points.size()-1);
 
-    for (Point i : points) {
-        i.print();
-    }
+    cout << "La distancia mas corta es: " << closestDistance(points) << endl;
 }

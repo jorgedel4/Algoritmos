@@ -1,4 +1,3 @@
-#include <math.h>
 
 struct Point {
     int x;
@@ -8,9 +7,11 @@ struct Point {
         this->x = x;
         this->y = y;
     }
+    // TC: O(1)
     float getDistanceTo(Point b) {
         return (sqrt( pow(this->x - b.x , 2) + pow(this->y - b.y, 2)));
     }
+    // TC: O(1)
     void print() {
         cout << "(" << this->x << ", " << this->y << ")" << endl;
     }

@@ -1,0 +1,11 @@
+test1.txt
+> 1.41421
+
+test2.txt
+> 2.23607
+
+test3.txt
+> 1
+
+test4.txt
+> 5
