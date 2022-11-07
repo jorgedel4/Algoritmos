@@ -1,5 +1,4 @@
 #include <math.h>
-#include <cmath>
 
 struct Point {
     int x;
