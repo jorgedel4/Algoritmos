@@ -1,0 +1,2117 @@
+===================
+hatIndex: 1
+bitmask: 0
+===================
+hatIndex: 2
+bitmask: 0
+===================
+hatIndex: 3
+bitmask: 0
+===================
+hatIndex: 4
+bitmask: 0
+===================
+hatIndex: 5
+bitmask: 0
+===================
+hatIndex: 6
+bitmask: 0
+===================
+hatIndex: 7
+bitmask: 0
+===================
+hatIndex: 8
+bitmask: 0
+===================
+hatIndex: 9
+bitmask: 0
+===================
+hatIndex: 10
+bitmask: 0
+===================
+hatIndex: 11
+bitmask: 0
+===================
+hatIndex: 12
+bitmask: 0
+===================
+hatIndex: 13
+bitmask: 0
+===================
+hatIndex: 14
+bitmask: 0
+===================
+hatIndex: 15
+bitmask: 0
+===================
+hatIndex: 16
+bitmask: 0
+===================
+hatIndex: 17
+bitmask: 0
+===================
+hatIndex: 18
+bitmask: 0
+===================
+hatIndex: 19
+bitmask: 0
+===================
+hatIndex: 20
+bitmask: 0
+===================
+hatIndex: 21
+bitmask: 0
+===================
+hatIndex: 22
+bitmask: 0
+===================
+hatIndex: 23
+bitmask: 0
+===================
+hatIndex: 24
+bitmask: 0
+===================
+hatIndex: 25
+bitmask: 0
+===================
+hatIndex: 26
+bitmask: 0
+===================
+hatIndex: 27
+bitmask: 0
+===================
+hatIndex: 28
+bitmask: 0
+===================
+hatIndex: 29
+bitmask: 0
+===================
+hatIndex: 30
+bitmask: 0
+===================
+hatIndex: 31
+bitmask: 0
+===================
+hatIndex: 32
+bitmask: 0
+===================
+hatIndex: 33
+bitmask: 0
+===================
+hatIndex: 34
+bitmask: 0
+===================
+hatIndex: 35
+bitmask: 0
+===================
+hatIndex: 36
+bitmask: 0
+===================
+hatIndex: 37
+bitmask: 0
+===================
+hatIndex: 38
+bitmask: 0
+===================
+hatIndex: 39
+bitmask: 0
+===================
+hatIndex: 40
+bitmask: 0
+===================
+hatIndex: 41
+bitmask: 0
+===================
+hatIndex: 42
+bitmask: 0
+===================
+hatIndex: 43
+bitmask: 0
+===================
+hatIndex: 44
+bitmask: 0
+===================
+hatIndex: 45
+bitmask: 0
+===================
+hatIndex: 46
+bitmask: 0
+===================
+hatIndex: 47
+bitmask: 0
+===================
+hatIndex: 48
+bitmask: 0
+===================
+hatIndex: 49
+bitmask: 0
+===================
+hatIndex: 50
+bitmask: 0
+===================
+hatIndex: 51
+bitmask: 0
+===================
+hatIndex: 52
+bitmask: 0
+===================
+hatIndex: 53
+bitmask: 0
+===================
+hatIndex: 54
+bitmask: 0
+===================
+hatIndex: 55
+bitmask: 0
+===================
+hatIndex: 56
+bitmask: 0
+===================
+hatIndex: 57
+bitmask: 0
+===================
+hatIndex: 58
+bitmask: 0
+===================
+hatIndex: 59
+bitmask: 0
+===================
+hatIndex: 60
+bitmask: 0
+===================
+hatIndex: 61
+bitmask: 0
+===================
+hatIndex: 62
+bitmask: 0
+===================
+hatIndex: 63
+bitmask: 0
+===================
+hatIndex: 64
+bitmask: 0
+===================
+hatIndex: 65
+bitmask: 0
+===================
+hatIndex: 66
+bitmask: 0
+===================
+hatIndex: 67
+bitmask: 0
+===================
+hatIndex: 68
+bitmask: 0
+===================
+hatIndex: 69
+bitmask: 0
+===================
+hatIndex: 70
+bitmask: 0
+===================
+hatIndex: 71
+bitmask: 0
+===================
+hatIndex: 72
+bitmask: 0
+===================
+hatIndex: 73
+bitmask: 0
+===================
+hatIndex: 74
+bitmask: 0
+===================
+hatIndex: 75
+bitmask: 0
+===================
+hatIndex: 76
+bitmask: 0
+===================
+hatIndex: 77
+bitmask: 0
+===================
+hatIndex: 78
+bitmask: 0
+===================
+hatIndex: 79
+bitmask: 0
+===================
+hatIndex: 80
+bitmask: 0
+===================
+hatIndex: 81
+bitmask: 0
+===================
+hatIndex: 82
+bitmask: 0
+===================
+hatIndex: 83
+bitmask: 0
+===================
+hatIndex: 84
+bitmask: 0
+===================
+hatIndex: 85
+bitmask: 0
+===================
+hatIndex: 86
+bitmask: 0
+===================
+hatIndex: 87
+bitmask: 0
+===================
+hatIndex: 88
+bitmask: 0
+===================
+hatIndex: 89
+bitmask: 0
+===================
+hatIndex: 90
+bitmask: 0
+===================
+hatIndex: 91
+bitmask: 0
+===================
+hatIndex: 92
+bitmask: 0
+===================
+hatIndex: 93
+bitmask: 0
+===================
+hatIndex: 94
+bitmask: 0
+===================
+hatIndex: 95
+bitmask: 0
+===================
+hatIndex: 96
+bitmask: 0
+===================
+hatIndex: 97
+bitmask: 0
+===================
+hatIndex: 98
+bitmask: 0
+===================
+hatIndex: 99
+bitmask: 0
+===================
+hatIndex: 100
+bitmask: 0
+===================
+hatIndex: 101
+bitmask: 0
+newMask: 1
+===================
+hatIndex: 101
+bitmask: 1
+newMask: 4
+===================
+hatIndex: 101
+bitmask: 4
+newMask: 1
+===================
+hatIndex: 6
+bitmask: 1
+===================
+hatIndex: 7
+bitmask: 1
+===================
+hatIndex: 8
+bitmask: 1
+===================
+hatIndex: 9
+bitmask: 1
+===================
+hatIndex: 10
+bitmask: 1
+===================
+hatIndex: 11
+bitmask: 1
+===================
+hatIndex: 12
+bitmask: 1
+===================
+hatIndex: 13
+bitmask: 1
+===================
+hatIndex: 14
+bitmask: 1
+===================
+hatIndex: 15
+bitmask: 1
+===================
+hatIndex: 16
+bitmask: 1
+===================
+hatIndex: 17
+bitmask: 1
+===================
+hatIndex: 18
+bitmask: 1
+===================
+hatIndex: 19
+bitmask: 1
+===================
+hatIndex: 20
+bitmask: 1
+===================
+hatIndex: 21
+bitmask: 1
+===================
+hatIndex: 22
+bitmask: 1
+===================
+hatIndex: 23
+bitmask: 1
+===================
+hatIndex: 24
+bitmask: 1
+===================
+hatIndex: 25
+bitmask: 1
+===================
+hatIndex: 26
+bitmask: 1
+===================
+hatIndex: 27
+bitmask: 1
+===================
+hatIndex: 28
+bitmask: 1
+===================
+hatIndex: 29
+bitmask: 1
+===================
+hatIndex: 30
+bitmask: 1
+===================
+hatIndex: 31
+bitmask: 1
+===================
+hatIndex: 32
+bitmask: 1
+===================
+hatIndex: 33
+bitmask: 1
+===================
+hatIndex: 34
+bitmask: 1
+===================
+hatIndex: 35
+bitmask: 1
+===================
+hatIndex: 36
+bitmask: 1
+===================
+hatIndex: 37
+bitmask: 1
+===================
+hatIndex: 38
+bitmask: 1
+===================
+hatIndex: 39
+bitmask: 1
+===================
+hatIndex: 40
+bitmask: 1
+===================
+hatIndex: 41
+bitmask: 1
+===================
+hatIndex: 42
+bitmask: 1
+===================
+hatIndex: 43
+bitmask: 1
+===================
+hatIndex: 44
+bitmask: 1
+===================
+hatIndex: 45
+bitmask: 1
+===================
+hatIndex: 46
+bitmask: 1
+===================
+hatIndex: 47
+bitmask: 1
+===================
+hatIndex: 48
+bitmask: 1
+===================
+hatIndex: 49
+bitmask: 1
+===================
+hatIndex: 50
+bitmask: 1
+===================
+hatIndex: 51
+bitmask: 1
+===================
+hatIndex: 52
+bitmask: 1
+===================
+hatIndex: 53
+bitmask: 1
+===================
+hatIndex: 54
+bitmask: 1
+===================
+hatIndex: 55
+bitmask: 1
+===================
+hatIndex: 56
+bitmask: 1
+===================
+hatIndex: 57
+bitmask: 1
+===================
+hatIndex: 58
+bitmask: 1
+===================
+hatIndex: 59
+bitmask: 1
+===================
+hatIndex: 60
+bitmask: 1
+===================
+hatIndex: 61
+bitmask: 1
+===================
+hatIndex: 62
+bitmask: 1
+===================
+hatIndex: 63
+bitmask: 1
+===================
+hatIndex: 64
+bitmask: 1
+===================
+hatIndex: 65
+bitmask: 1
+===================
+hatIndex: 66
+bitmask: 1
+===================
+hatIndex: 67
+bitmask: 1
+===================
+hatIndex: 68
+bitmask: 1
+===================
+hatIndex: 69
+bitmask: 1
+===================
+hatIndex: 70
+bitmask: 1
+===================
+hatIndex: 71
+bitmask: 1
+===================
+hatIndex: 72
+bitmask: 1
+===================
+hatIndex: 73
+bitmask: 1
+===================
+hatIndex: 74
+bitmask: 1
+===================
+hatIndex: 75
+bitmask: 1
+===================
+hatIndex: 76
+bitmask: 1
+===================
+hatIndex: 77
+bitmask: 1
+===================
+hatIndex: 78
+bitmask: 1
+===================
+hatIndex: 79
+bitmask: 1
+===================
+hatIndex: 80
+bitmask: 1
+===================
+hatIndex: 81
+bitmask: 1
+===================
+hatIndex: 82
+bitmask: 1
+===================
+hatIndex: 83
+bitmask: 1
+===================
+hatIndex: 84
+bitmask: 1
+===================
+hatIndex: 85
+bitmask: 1
+===================
+hatIndex: 86
+bitmask: 1
+===================
+hatIndex: 87
+bitmask: 1
+===================
+hatIndex: 88
+bitmask: 1
+===================
+hatIndex: 89
+bitmask: 1
+===================
+hatIndex: 90
+bitmask: 1
+===================
+hatIndex: 91
+bitmask: 1
+===================
+hatIndex: 92
+bitmask: 1
+===================
+hatIndex: 93
+bitmask: 1
+===================
+hatIndex: 94
+bitmask: 1
+===================
+hatIndex: 95
+bitmask: 1
+===================
+hatIndex: 96
+bitmask: 1
+===================
+hatIndex: 97
+bitmask: 1
+===================
+hatIndex: 98
+bitmask: 1
+===================
+hatIndex: 99
+bitmask: 1
+===================
+hatIndex: 100
+bitmask: 1
+===================
+hatIndex: 101
+bitmask: 1
+newMask: 5
+===================
+hatIndex: 101
+bitmask: 5
+newMask: 4
+===================
+hatIndex: 6
+bitmask: 4
+===================
+hatIndex: 7
+bitmask: 4
+===================
+hatIndex: 8
+bitmask: 4
+===================
+hatIndex: 9
+bitmask: 4
+===================
+hatIndex: 10
+bitmask: 4
+===================
+hatIndex: 11
+bitmask: 4
+===================
+hatIndex: 12
+bitmask: 4
+===================
+hatIndex: 13
+bitmask: 4
+===================
+hatIndex: 14
+bitmask: 4
+===================
+hatIndex: 15
+bitmask: 4
+===================
+hatIndex: 16
+bitmask: 4
+===================
+hatIndex: 17
+bitmask: 4
+===================
+hatIndex: 18
+bitmask: 4
+===================
+hatIndex: 19
+bitmask: 4
+===================
+hatIndex: 20
+bitmask: 4
+===================
+hatIndex: 21
+bitmask: 4
+===================
+hatIndex: 22
+bitmask: 4
+===================
+hatIndex: 23
+bitmask: 4
+===================
+hatIndex: 24
+bitmask: 4
+===================
+hatIndex: 25
+bitmask: 4
+===================
+hatIndex: 26
+bitmask: 4
+===================
+hatIndex: 27
+bitmask: 4
+===================
+hatIndex: 28
+bitmask: 4
+===================
+hatIndex: 29
+bitmask: 4
+===================
+hatIndex: 30
+bitmask: 4
+===================
+hatIndex: 31
+bitmask: 4
+===================
+hatIndex: 32
+bitmask: 4
+===================
+hatIndex: 33
+bitmask: 4
+===================
+hatIndex: 34
+bitmask: 4
+===================
+hatIndex: 35
+bitmask: 4
+===================
+hatIndex: 36
+bitmask: 4
+===================
+hatIndex: 37
+bitmask: 4
+===================
+hatIndex: 38
+bitmask: 4
+===================
+hatIndex: 39
+bitmask: 4
+===================
+hatIndex: 40
+bitmask: 4
+===================
+hatIndex: 41
+bitmask: 4
+===================
+hatIndex: 42
+bitmask: 4
+===================
+hatIndex: 43
+bitmask: 4
+===================
+hatIndex: 44
+bitmask: 4
+===================
+hatIndex: 45
+bitmask: 4
+===================
+hatIndex: 46
+bitmask: 4
+===================
+hatIndex: 47
+bitmask: 4
+===================
+hatIndex: 48
+bitmask: 4
+===================
+hatIndex: 49
+bitmask: 4
+===================
+hatIndex: 50
+bitmask: 4
+===================
+hatIndex: 51
+bitmask: 4
+===================
+hatIndex: 52
+bitmask: 4
+===================
+hatIndex: 53
+bitmask: 4
+===================
+hatIndex: 54
+bitmask: 4
+===================
+hatIndex: 55
+bitmask: 4
+===================
+hatIndex: 56
+bitmask: 4
+===================
+hatIndex: 57
+bitmask: 4
+===================
+hatIndex: 58
+bitmask: 4
+===================
+hatIndex: 59
+bitmask: 4
+===================
+hatIndex: 60
+bitmask: 4
+===================
+hatIndex: 61
+bitmask: 4
+===================
+hatIndex: 62
+bitmask: 4
+===================
+hatIndex: 63
+bitmask: 4
+===================
+hatIndex: 64
+bitmask: 4
+===================
+hatIndex: 65
+bitmask: 4
+===================
+hatIndex: 66
+bitmask: 4
+===================
+hatIndex: 67
+bitmask: 4
+===================
+hatIndex: 68
+bitmask: 4
+===================
+hatIndex: 69
+bitmask: 4
+===================
+hatIndex: 70
+bitmask: 4
+===================
+hatIndex: 71
+bitmask: 4
+===================
+hatIndex: 72
+bitmask: 4
+===================
+hatIndex: 73
+bitmask: 4
+===================
+hatIndex: 74
+bitmask: 4
+===================
+hatIndex: 75
+bitmask: 4
+===================
+hatIndex: 76
+bitmask: 4
+===================
+hatIndex: 77
+bitmask: 4
+===================
+hatIndex: 78
+bitmask: 4
+===================
+hatIndex: 79
+bitmask: 4
+===================
+hatIndex: 80
+bitmask: 4
+===================
+hatIndex: 81
+bitmask: 4
+===================
+hatIndex: 82
+bitmask: 4
+===================
+hatIndex: 83
+bitmask: 4
+===================
+hatIndex: 84
+bitmask: 4
+===================
+hatIndex: 85
+bitmask: 4
+===================
+hatIndex: 86
+bitmask: 4
+===================
+hatIndex: 87
+bitmask: 4
+===================
+hatIndex: 88
+bitmask: 4
+===================
+hatIndex: 89
+bitmask: 4
+===================
+hatIndex: 90
+bitmask: 4
+===================
+hatIndex: 91
+bitmask: 4
+===================
+hatIndex: 92
+bitmask: 4
+===================
+hatIndex: 93
+bitmask: 4
+===================
+hatIndex: 94
+bitmask: 4
+===================
+hatIndex: 95
+bitmask: 4
+===================
+hatIndex: 96
+bitmask: 4
+===================
+hatIndex: 97
+bitmask: 4
+===================
+hatIndex: 98
+bitmask: 4
+===================
+hatIndex: 99
+bitmask: 4
+===================
+hatIndex: 100
+bitmask: 4
+===================
+hatIndex: 101
+bitmask: 4
+newMask: 5
+===================
+hatIndex: 101
+bitmask: 5
+newMask: 2
+===================
+hatIndex: 3
+bitmask: 2
+===================
+hatIndex: 4
+bitmask: 2
+===================
+hatIndex: 5
+bitmask: 2
+===================
+hatIndex: 6
+bitmask: 2
+===================
+hatIndex: 7
+bitmask: 2
+===================
+hatIndex: 8
+bitmask: 2
+===================
+hatIndex: 9
+bitmask: 2
+===================
+hatIndex: 10
+bitmask: 2
+===================
+hatIndex: 11
+bitmask: 2
+===================
+hatIndex: 12
+bitmask: 2
+===================
+hatIndex: 13
+bitmask: 2
+===================
+hatIndex: 14
+bitmask: 2
+===================
+hatIndex: 15
+bitmask: 2
+===================
+hatIndex: 16
+bitmask: 2
+===================
+hatIndex: 17
+bitmask: 2
+===================
+hatIndex: 18
+bitmask: 2
+===================
+hatIndex: 19
+bitmask: 2
+===================
+hatIndex: 20
+bitmask: 2
+===================
+hatIndex: 21
+bitmask: 2
+===================
+hatIndex: 22
+bitmask: 2
+===================
+hatIndex: 23
+bitmask: 2
+===================
+hatIndex: 24
+bitmask: 2
+===================
+hatIndex: 25
+bitmask: 2
+===================
+hatIndex: 26
+bitmask: 2
+===================
+hatIndex: 27
+bitmask: 2
+===================
+hatIndex: 28
+bitmask: 2
+===================
+hatIndex: 29
+bitmask: 2
+===================
+hatIndex: 30
+bitmask: 2
+===================
+hatIndex: 31
+bitmask: 2
+===================
+hatIndex: 32
+bitmask: 2
+===================
+hatIndex: 33
+bitmask: 2
+===================
+hatIndex: 34
+bitmask: 2
+===================
+hatIndex: 35
+bitmask: 2
+===================
+hatIndex: 36
+bitmask: 2
+===================
+hatIndex: 37
+bitmask: 2
+===================
+hatIndex: 38
+bitmask: 2
+===================
+hatIndex: 39
+bitmask: 2
+===================
+hatIndex: 40
+bitmask: 2
+===================
+hatIndex: 41
+bitmask: 2
+===================
+hatIndex: 42
+bitmask: 2
+===================
+hatIndex: 43
+bitmask: 2
+===================
+hatIndex: 44
+bitmask: 2
+===================
+hatIndex: 45
+bitmask: 2
+===================
+hatIndex: 46
+bitmask: 2
+===================
+hatIndex: 47
+bitmask: 2
+===================
+hatIndex: 48
+bitmask: 2
+===================
+hatIndex: 49
+bitmask: 2
+===================
+hatIndex: 50
+bitmask: 2
+===================
+hatIndex: 51
+bitmask: 2
+===================
+hatIndex: 52
+bitmask: 2
+===================
+hatIndex: 53
+bitmask: 2
+===================
+hatIndex: 54
+bitmask: 2
+===================
+hatIndex: 55
+bitmask: 2
+===================
+hatIndex: 56
+bitmask: 2
+===================
+hatIndex: 57
+bitmask: 2
+===================
+hatIndex: 58
+bitmask: 2
+===================
+hatIndex: 59
+bitmask: 2
+===================
+hatIndex: 60
+bitmask: 2
+===================
+hatIndex: 61
+bitmask: 2
+===================
+hatIndex: 62
+bitmask: 2
+===================
+hatIndex: 63
+bitmask: 2
+===================
+hatIndex: 64
+bitmask: 2
+===================
+hatIndex: 65
+bitmask: 2
+===================
+hatIndex: 66
+bitmask: 2
+===================
+hatIndex: 67
+bitmask: 2
+===================
+hatIndex: 68
+bitmask: 2
+===================
+hatIndex: 69
+bitmask: 2
+===================
+hatIndex: 70
+bitmask: 2
+===================
+hatIndex: 71
+bitmask: 2
+===================
+hatIndex: 72
+bitmask: 2
+===================
+hatIndex: 73
+bitmask: 2
+===================
+hatIndex: 74
+bitmask: 2
+===================
+hatIndex: 75
+bitmask: 2
+===================
+hatIndex: 76
+bitmask: 2
+===================
+hatIndex: 77
+bitmask: 2
+===================
+hatIndex: 78
+bitmask: 2
+===================
+hatIndex: 79
+bitmask: 2
+===================
+hatIndex: 80
+bitmask: 2
+===================
+hatIndex: 81
+bitmask: 2
+===================
+hatIndex: 82
+bitmask: 2
+===================
+hatIndex: 83
+bitmask: 2
+===================
+hatIndex: 84
+bitmask: 2
+===================
+hatIndex: 85
+bitmask: 2
+===================
+hatIndex: 86
+bitmask: 2
+===================
+hatIndex: 87
+bitmask: 2
+===================
+hatIndex: 88
+bitmask: 2
+===================
+hatIndex: 89
+bitmask: 2
+===================
+hatIndex: 90
+bitmask: 2
+===================
+hatIndex: 91
+bitmask: 2
+===================
+hatIndex: 92
+bitmask: 2
+===================
+hatIndex: 93
+bitmask: 2
+===================
+hatIndex: 94
+bitmask: 2
+===================
+hatIndex: 95
+bitmask: 2
+===================
+hatIndex: 96
+bitmask: 2
+===================
+hatIndex: 97
+bitmask: 2
+===================
+hatIndex: 98
+bitmask: 2
+===================
+hatIndex: 99
+bitmask: 2
+===================
+hatIndex: 100
+bitmask: 2
+===================
+hatIndex: 101
+bitmask: 2
+newMask: 3
+===================
+hatIndex: 101
+bitmask: 3
+newMask: 6
+===================
+hatIndex: 101
+bitmask: 6
+newMask: 3
+===================
+hatIndex: 6
+bitmask: 3
+===================
+hatIndex: 7
+bitmask: 3
+===================
+hatIndex: 8
+bitmask: 3
+===================
+hatIndex: 9
+bitmask: 3
+===================
+hatIndex: 10
+bitmask: 3
+===================
+hatIndex: 11
+bitmask: 3
+===================
+hatIndex: 12
+bitmask: 3
+===================
+hatIndex: 13
+bitmask: 3
+===================
+hatIndex: 14
+bitmask: 3
+===================
+hatIndex: 15
+bitmask: 3
+===================
+hatIndex: 16
+bitmask: 3
+===================
+hatIndex: 17
+bitmask: 3
+===================
+hatIndex: 18
+bitmask: 3
+===================
+hatIndex: 19
+bitmask: 3
+===================
+hatIndex: 20
+bitmask: 3
+===================
+hatIndex: 21
+bitmask: 3
+===================
+hatIndex: 22
+bitmask: 3
+===================
+hatIndex: 23
+bitmask: 3
+===================
+hatIndex: 24
+bitmask: 3
+===================
+hatIndex: 25
+bitmask: 3
+===================
+hatIndex: 26
+bitmask: 3
+===================
+hatIndex: 27
+bitmask: 3
+===================
+hatIndex: 28
+bitmask: 3
+===================
+hatIndex: 29
+bitmask: 3
+===================
+hatIndex: 30
+bitmask: 3
+===================
+hatIndex: 31
+bitmask: 3
+===================
+hatIndex: 32
+bitmask: 3
+===================
+hatIndex: 33
+bitmask: 3
+===================
+hatIndex: 34
+bitmask: 3
+===================
+hatIndex: 35
+bitmask: 3
+===================
+hatIndex: 36
+bitmask: 3
+===================
+hatIndex: 37
+bitmask: 3
+===================
+hatIndex: 38
+bitmask: 3
+===================
+hatIndex: 39
+bitmask: 3
+===================
+hatIndex: 40
+bitmask: 3
+===================
+hatIndex: 41
+bitmask: 3
+===================
+hatIndex: 42
+bitmask: 3
+===================
+hatIndex: 43
+bitmask: 3
+===================
+hatIndex: 44
+bitmask: 3
+===================
+hatIndex: 45
+bitmask: 3
+===================
+hatIndex: 46
+bitmask: 3
+===================
+hatIndex: 47
+bitmask: 3
+===================
+hatIndex: 48
+bitmask: 3
+===================
+hatIndex: 49
+bitmask: 3
+===================
+hatIndex: 50
+bitmask: 3
+===================
+hatIndex: 51
+bitmask: 3
+===================
+hatIndex: 52
+bitmask: 3
+===================
+hatIndex: 53
+bitmask: 3
+===================
+hatIndex: 54
+bitmask: 3
+===================
+hatIndex: 55
+bitmask: 3
+===================
+hatIndex: 56
+bitmask: 3
+===================
+hatIndex: 57
+bitmask: 3
+===================
+hatIndex: 58
+bitmask: 3
+===================
+hatIndex: 59
+bitmask: 3
+===================
+hatIndex: 60
+bitmask: 3
+===================
+hatIndex: 61
+bitmask: 3
+===================
+hatIndex: 62
+bitmask: 3
+===================
+hatIndex: 63
+bitmask: 3
+===================
+hatIndex: 64
+bitmask: 3
+===================
+hatIndex: 65
+bitmask: 3
+===================
+hatIndex: 66
+bitmask: 3
+===================
+hatIndex: 67
+bitmask: 3
+===================
+hatIndex: 68
+bitmask: 3
+===================
+hatIndex: 69
+bitmask: 3
+===================
+hatIndex: 70
+bitmask: 3
+===================
+hatIndex: 71
+bitmask: 3
+===================
+hatIndex: 72
+bitmask: 3
+===================
+hatIndex: 73
+bitmask: 3
+===================
+hatIndex: 74
+bitmask: 3
+===================
+hatIndex: 75
+bitmask: 3
+===================
+hatIndex: 76
+bitmask: 3
+===================
+hatIndex: 77
+bitmask: 3
+===================
+hatIndex: 78
+bitmask: 3
+===================
+hatIndex: 79
+bitmask: 3
+===================
+hatIndex: 80
+bitmask: 3
+===================
+hatIndex: 81
+bitmask: 3
+===================
+hatIndex: 82
+bitmask: 3
+===================
+hatIndex: 83
+bitmask: 3
+===================
+hatIndex: 84
+bitmask: 3
+===================
+hatIndex: 85
+bitmask: 3
+===================
+hatIndex: 86
+bitmask: 3
+===================
+hatIndex: 87
+bitmask: 3
+===================
+hatIndex: 88
+bitmask: 3
+===================
+hatIndex: 89
+bitmask: 3
+===================
+hatIndex: 90
+bitmask: 3
+===================
+hatIndex: 91
+bitmask: 3
+===================
+hatIndex: 92
+bitmask: 3
+===================
+hatIndex: 93
+bitmask: 3
+===================
+hatIndex: 94
+bitmask: 3
+===================
+hatIndex: 95
+bitmask: 3
+===================
+hatIndex: 96
+bitmask: 3
+===================
+hatIndex: 97
+bitmask: 3
+===================
+hatIndex: 98
+bitmask: 3
+===================
+hatIndex: 99
+bitmask: 3
+===================
+hatIndex: 100
+bitmask: 3
+===================
+hatIndex: 101
+bitmask: 3
+newMask: 7
+===================
+hatIndex: 101
+bitmask: 7
+All people are wearing caps!
+newMask: 6
+===================
+hatIndex: 6
+bitmask: 6
+===================
+hatIndex: 7
+bitmask: 6
+===================
+hatIndex: 8
+bitmask: 6
+===================
+hatIndex: 9
+bitmask: 6
+===================
+hatIndex: 10
+bitmask: 6
+===================
+hatIndex: 11
+bitmask: 6
+===================
+hatIndex: 12
+bitmask: 6
+===================
+hatIndex: 13
+bitmask: 6
+===================
+hatIndex: 14
+bitmask: 6
+===================
+hatIndex: 15
+bitmask: 6
+===================
+hatIndex: 16
+bitmask: 6
+===================
+hatIndex: 17
+bitmask: 6
+===================
+hatIndex: 18
+bitmask: 6
+===================
+hatIndex: 19
+bitmask: 6
+===================
+hatIndex: 20
+bitmask: 6
+===================
+hatIndex: 21
+bitmask: 6
+===================
+hatIndex: 22
+bitmask: 6
+===================
+hatIndex: 23
+bitmask: 6
+===================
+hatIndex: 24
+bitmask: 6
+===================
+hatIndex: 25
+bitmask: 6
+===================
+hatIndex: 26
+bitmask: 6
+===================
+hatIndex: 27
+bitmask: 6
+===================
+hatIndex: 28
+bitmask: 6
+===================
+hatIndex: 29
+bitmask: 6
+===================
+hatIndex: 30
+bitmask: 6
+===================
+hatIndex: 31
+bitmask: 6
+===================
+hatIndex: 32
+bitmask: 6
+===================
+hatIndex: 33
+bitmask: 6
+===================
+hatIndex: 34
+bitmask: 6
+===================
+hatIndex: 35
+bitmask: 6
+===================
+hatIndex: 36
+bitmask: 6
+===================
+hatIndex: 37
+bitmask: 6
+===================
+hatIndex: 38
+bitmask: 6
+===================
+hatIndex: 39
+bitmask: 6
+===================
+hatIndex: 40
+bitmask: 6
+===================
+hatIndex: 41
+bitmask: 6
+===================
+hatIndex: 42
+bitmask: 6
+===================
+hatIndex: 43
+bitmask: 6
+===================
+hatIndex: 44
+bitmask: 6
+===================
+hatIndex: 45
+bitmask: 6
+===================
+hatIndex: 46
+bitmask: 6
+===================
+hatIndex: 47
+bitmask: 6
+===================
+hatIndex: 48
+bitmask: 6
+===================
+hatIndex: 49
+bitmask: 6
+===================
+hatIndex: 50
+bitmask: 6
+===================
+hatIndex: 51
+bitmask: 6
+===================
+hatIndex: 52
+bitmask: 6
+===================
+hatIndex: 53
+bitmask: 6
+===================
+hatIndex: 54
+bitmask: 6
+===================
+hatIndex: 55
+bitmask: 6
+===================
+hatIndex: 56
+bitmask: 6
+===================
+hatIndex: 57
+bitmask: 6
+===================
+hatIndex: 58
+bitmask: 6
+===================
+hatIndex: 59
+bitmask: 6
+===================
+hatIndex: 60
+bitmask: 6
+===================
+hatIndex: 61
+bitmask: 6
+===================
+hatIndex: 62
+bitmask: 6
+===================
+hatIndex: 63
+bitmask: 6
+===================
+hatIndex: 64
+bitmask: 6
+===================
+hatIndex: 65
+bitmask: 6
+===================
+hatIndex: 66
+bitmask: 6
+===================
+hatIndex: 67
+bitmask: 6
+===================
+hatIndex: 68
+bitmask: 6
+===================
+hatIndex: 69
+bitmask: 6
+===================
+hatIndex: 70
+bitmask: 6
+===================
+hatIndex: 71
+bitmask: 6
+===================
+hatIndex: 72
+bitmask: 6
+===================
+hatIndex: 73
+bitmask: 6
+===================
+hatIndex: 74
+bitmask: 6
+===================
+hatIndex: 75
+bitmask: 6
+===================
+hatIndex: 76
+bitmask: 6
+===================
+hatIndex: 77
+bitmask: 6
+===================
+hatIndex: 78
+bitmask: 6
+===================
+hatIndex: 79
+bitmask: 6
+===================
+hatIndex: 80
+bitmask: 6
+===================
+hatIndex: 81
+bitmask: 6
+===================
+hatIndex: 82
+bitmask: 6
+===================
+hatIndex: 83
+bitmask: 6
+===================
+hatIndex: 84
+bitmask: 6
+===================
+hatIndex: 85
+bitmask: 6
+===================
+hatIndex: 86
+bitmask: 6
+===================
+hatIndex: 87
+bitmask: 6
+===================
+hatIndex: 88
+bitmask: 6
+===================
+hatIndex: 89
+bitmask: 6
+===================
+hatIndex: 90
+bitmask: 6
+===================
+hatIndex: 91
+bitmask: 6
+===================
+hatIndex: 92
+bitmask: 6
+===================
+hatIndex: 93
+bitmask: 6
+===================
+hatIndex: 94
+bitmask: 6
+===================
+hatIndex: 95
+bitmask: 6
+===================
+hatIndex: 96
+bitmask: 6
+===================
+hatIndex: 97
+bitmask: 6
+===================
+hatIndex: 98
+bitmask: 6
+===================
+hatIndex: 99
+bitmask: 6
+===================
+hatIndex: 100
+bitmask: 6
+===================
+hatIndex: 101
+bitmask: 6
+newMask: 7
+===================
+hatIndex: 101
+bitmask: 7
+All people are wearing caps!
+newMask: 1
+===================
+hatIndex: 2
+bitmask: 1
+===================
+hatIndex: 3
+bitmask: 1
+===================
+hatIndex: 4
+bitmask: 1
+===================
+hatIndex: 5
+bitmask: 1
+===================
+hatIndex: 6
+bitmask: 1
+Repeated pattern found at 1 6
+newMask: 5
+===================
+hatIndex: 6
+bitmask: 5
+===================
+hatIndex: 7
+bitmask: 5
+===================
+hatIndex: 8
+bitmask: 5
+===================
+hatIndex: 9
+bitmask: 5
+===================
+hatIndex: 10
+bitmask: 5
+===================
+hatIndex: 11
+bitmask: 5
+===================
+hatIndex: 12
+bitmask: 5
+===================
+hatIndex: 13
+bitmask: 5
+===================
+hatIndex: 14
+bitmask: 5
+===================
+hatIndex: 15
+bitmask: 5
+===================
+hatIndex: 16
+bitmask: 5
+===================
+hatIndex: 17
+bitmask: 5
+===================
+hatIndex: 18
+bitmask: 5
+===================
+hatIndex: 19
+bitmask: 5
+===================
+hatIndex: 20
+bitmask: 5
+===================
+hatIndex: 21
+bitmask: 5
+===================
+hatIndex: 22
+bitmask: 5
+===================
+hatIndex: 23
+bitmask: 5
+===================
+hatIndex: 24
+bitmask: 5
+===================
+hatIndex: 25
+bitmask: 5
+===================
+hatIndex: 26
+bitmask: 5
+===================
+hatIndex: 27
+bitmask: 5
+===================
+hatIndex: 28
+bitmask: 5
+===================
+hatIndex: 29
+bitmask: 5
+===================
+hatIndex: 30
+bitmask: 5
+===================
+hatIndex: 31
+bitmask: 5
+===================
+hatIndex: 32
+bitmask: 5
+===================
+hatIndex: 33
+bitmask: 5
+===================
+hatIndex: 34
+bitmask: 5
+===================
+hatIndex: 35
+bitmask: 5
+===================
+hatIndex: 36
+bitmask: 5
+===================
+hatIndex: 37
+bitmask: 5
+===================
+hatIndex: 38
+bitmask: 5
+===================
+hatIndex: 39
+bitmask: 5
+===================
+hatIndex: 40
+bitmask: 5
+===================
+hatIndex: 41
+bitmask: 5
+===================
+hatIndex: 42
+bitmask: 5
+===================
+hatIndex: 43
+bitmask: 5
+===================
+hatIndex: 44
+bitmask: 5
+===================
+hatIndex: 45
+bitmask: 5
+===================
+hatIndex: 46
+bitmask: 5
+===================
+hatIndex: 47
+bitmask: 5
+===================
+hatIndex: 48
+bitmask: 5
+===================
+hatIndex: 49
+bitmask: 5
+===================
+hatIndex: 50
+bitmask: 5
+===================
+hatIndex: 51
+bitmask: 5
+===================
+hatIndex: 52
+bitmask: 5
+===================
+hatIndex: 53
+bitmask: 5
+===================
+hatIndex: 54
+bitmask: 5
+===================
+hatIndex: 55
+bitmask: 5
+===================
+hatIndex: 56
+bitmask: 5
+===================
+hatIndex: 57
+bitmask: 5
+===================
+hatIndex: 58
+bitmask: 5
+===================
+hatIndex: 59
+bitmask: 5
+===================
+hatIndex: 60
+bitmask: 5
+===================
+hatIndex: 61
+bitmask: 5
+===================
+hatIndex: 62
+bitmask: 5
+===================
+hatIndex: 63
+bitmask: 5
+===================
+hatIndex: 64
+bitmask: 5
+===================
+hatIndex: 65
+bitmask: 5
+===================
+hatIndex: 66
+bitmask: 5
+===================
+hatIndex: 67
+bitmask: 5
+===================
+hatIndex: 68
+bitmask: 5
+===================
+hatIndex: 69
+bitmask: 5
+===================
+hatIndex: 70
+bitmask: 5
+===================
+hatIndex: 71
+bitmask: 5
+===================
+hatIndex: 72
+bitmask: 5
+===================
+hatIndex: 73
+bitmask: 5
+===================
+hatIndex: 74
+bitmask: 5
+===================
+hatIndex: 75
+bitmask: 5
+===================
+hatIndex: 76
+bitmask: 5
+===================
+hatIndex: 77
+bitmask: 5
+===================
+hatIndex: 78
+bitmask: 5
+===================
+hatIndex: 79
+bitmask: 5
+===================
+hatIndex: 80
+bitmask: 5
+===================
+hatIndex: 81
+bitmask: 5
+===================
+hatIndex: 82
+bitmask: 5
+===================
+hatIndex: 83
+bitmask: 5
+===================
+hatIndex: 84
+bitmask: 5
+===================
+hatIndex: 85
+bitmask: 5
+===================
+hatIndex: 86
+bitmask: 5
+===================
+hatIndex: 87
+bitmask: 5
+===================
+hatIndex: 88
+bitmask: 5
+===================
+hatIndex: 89
+bitmask: 5
+===================
+hatIndex: 90
+bitmask: 5
+===================
+hatIndex: 91
+bitmask: 5
+===================
+hatIndex: 92
+bitmask: 5
+===================
+hatIndex: 93
+bitmask: 5
+===================
+hatIndex: 94
+bitmask: 5
+===================
+hatIndex: 95
+bitmask: 5
+===================
+hatIndex: 96
+bitmask: 5
+===================
+hatIndex: 97
+bitmask: 5
+===================
+hatIndex: 98
+bitmask: 5
+===================
+hatIndex: 99
+bitmask: 5
+===================
+hatIndex: 100
+bitmask: 5
+===================
+hatIndex: 101
+bitmask: 5
+newMask: 3
+===================
+hatIndex: 3
+bitmask: 3
+===================
+hatIndex: 4
+bitmask: 3
+===================
+hatIndex: 5
+bitmask: 3
+===================
+hatIndex: 6
+bitmask: 3
+Repeated pattern found at 3 6
+newMask: 7
+===================
+hatIndex: 6
+bitmask: 7
+All people are wearing caps!
+4
