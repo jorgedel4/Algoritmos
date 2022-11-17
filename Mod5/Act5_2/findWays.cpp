@@ -9,42 +9,42 @@ int allUsedMask;
 
 
 //
-int countWays(int people, int hatTypes, int hatIndex, int bitmask, vector<vector<int>>& dp, unordered_map<int, vector<int>> personPerHat) {
-    cout << "===================" << endl;
-    cout << "hatIndex: " << hatIndex << endl;
-    cout << "bitmask: " << bitmask << endl;
+int countWays(int people, int hatTypes, int hatIndex, int bitmask, vector<vector<int>>& dp, unordered_map<int, vector<int>> personPerHat, vector < vector <int> >& answers, vector <int> options) {
+    // cout << "===================" << endl;
+    // cout << "hatIndex: " << hatIndex << endl;
+    // cout << "bitmask: " << bitmask << endl;
     // All people are wearing unique hats
     if (bitmask == allUsedMask) {
-        cout << "All people are wearing caps!" << endl;
+        answers.push_back(options); 
+        // cout << "===================" << endl;
+        // cout << "hatIndex: " << hatIndex << endl;
+        // cout << "bitmask: " << bitmask << endl; //esta es la persona que esta usando que gorra
+        // cout << "All people are wearing caps!" << endl;
         return 1;
     }
 
     // There is not another hat to process
     if (hatIndex > hatTypes) return 0;
 
-    // Return a recorded record of the answer
-    if (dp[bitmask][hatIndex] != -1) {
-        cout << "Repeated pattern found at " << bitmask << " " << hatIndex << endl;
-        return dp[bitmask][hatIndex];
-
-    }
-
     // ---- FIRST OPTION ----
     // This cap is skipped
-    int ways = countWays(people, hatTypes, hatIndex+1, bitmask, dp, personPerHat);
+    int ways = countWays(people, hatTypes, hatIndex+1, bitmask, dp, personPerHat, answers, options);
 
     // ---- SECOND OPTION ----
     // Allow this cap to a person
+    // hat 1 : person2, 10
+    // options [x, x, 1]
     for (int person : personPerHat[hatIndex]) {
         // Check that current person is not wearing a mask
         if ( ((1 << person) & bitmask) == 0) {
-            int newMask = bitmask | (1 << person);
-            cout << "newMask: " << newMask << endl;
-            ways += countWays(people, hatTypes, hatIndex+1, newMask, dp, personPerHat);
+            int newMask = bitmask | (1 << person); 
+            options[person] = hatIndex; 
+            ways += countWays(people, hatTypes, hatIndex+1, newMask, dp, personPerHat, answers, options);
         }
     }
+
+
     dp[bitmask][hatIndex] = ways;
-    // cout << "found ways: " << ways << endl;
     return ways;
 
 }
@@ -52,9 +52,11 @@ int countWays(int people, int hatTypes, int hatIndex, int bitmask, vector<vector
 // hatsPerPerson indicates which person [i] likes which hat [i][j]
 // personPerHat indicates which hat [i] can be used by which person [i][j]
 // TC: O(h), where h = number of hats
-int numberOfWays(vector<vector<int>> hatsPerPerson) {
+void numberOfWays(vector<vector<int>> hatsPerPerson) {
+    vector <int> options(hatsPerPerson.size()); 
+    vector < vector<int> > answers; 
     int people = hatsPerPerson.size();
-    allUsedMask = (1 << people) - 1;
+    allUsedMask = (1 << people) - 1; //este es el bitmasl
     int hatTypes = 100;
 
     unordered_map<int, vector<int>> personPerHat;
@@ -65,8 +67,21 @@ int numberOfWays(vector<vector<int>> hatsPerPerson) {
         }
     }
 
+    
     // Create vector for storing results, starting as -1 indicating no results yet on that value
     // dp[i][j], where i = bitmask and j = hatIndex
     vector<vector<int> > dp(1 << people, vector<int>(hatTypes+1, -1));
-    return countWays(people, hatTypes, 1, 0, dp, personPerHat);
+
+    cout << countWays(people, hatTypes, 1, 0, dp, personPerHat, answers, options) << endl; 
+    for(auto i : answers){
+        cout << "(";
+        for(int x = 0; x < i.size(); ++x) {
+            cout << i[x];
+            if (x != i.size()-1)
+                cout << ", ";
+        }
+        cout << ")" << endl;
+    }
 }
+
+

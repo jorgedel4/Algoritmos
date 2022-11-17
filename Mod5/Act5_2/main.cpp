@@ -33,5 +33,5 @@ int main() {
         hats[i] = parseLine(line);
     }
 
-    cout << numberOfWays(hats) << endl;
+    numberOfWays(hats);
 }
