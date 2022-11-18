@@ -1,0 +1,67 @@
+Current pos: (0, 0)
+
+matrix at: 0, 1
+0matrix at: 1, 0
+1VALID NEIGHBORS
+0 1
+1 0
+Next move: 0 1
+Current pos: (0, 1)
+R
+matrix at: 0, 2
+0matrix at: 1, 1
+1matrix at: 0, 0
+1VALID NEIGHBORS
+0 2
+1 1
+0 0
+Next move: 1 1
+Current pos: (1, 1)
+RD
+matrix at: 1, 2
+0matrix at: 2, 1
+1matrix at: 1, 0
+1matrix at: 0, 1
+0VALID NEIGHBORS
+1 2
+2 1
+1 0
+0 1
+Next move: 1 2
+Current pos: (1, 2)
+RDR
+matrix at: 1, 3
+1matrix at: 2, 2
+0matrix at: 1, 1
+1matrix at: 0, 2
+0VALID NEIGHBORS
+1 3
+2 2
+1 1
+0 2
+Next move: 2 2
+Current pos: (2, 2)
+RDRD
+matrix at: 2, 3
+0matrix at: 3, 2
+1matrix at: 2, 1
+1matrix at: 1, 2
+0VALID NEIGHBORS
+2 3
+3 2
+2 1
+1 2
+Next move: 2 3
+Current pos: (2, 3)
+RDRDR
+matrix at: 3, 3
+1matrix at: 2, 2
+0matrix at: 1, 3
+1VALID NEIGHBORS
+3 3
+2 2
+1 3
+Next move: 3 3
+Current pos: (3, 3)
+RDRDRD
+RDRDRD
